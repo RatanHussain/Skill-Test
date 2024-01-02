@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f1eded;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+
+.card{
+    width: 310px;
+    height: 600px;
+    border-radius: 40px ;
+    margin: auto;
+    align-items: center;
+    /* border: 3px solid #000; */
+    background-color: #fff;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2) , -5px -5px 20px rgba(0, 0, 0, 0.2);
+    .textBody{
+        padding: 20px;
+        & h3{
+            padding-bottom: 10px;
+        }
+        & p{
+            font-size: 14px;
+            line-height: 30px;
+            opacity: .7;
+        }
+    }
+
+    .btn1{
+        bottom: 0;
+        justify-content: space-between;
+        margin-top: auto;
+    }
+
+    .btn{
+        margin-top: auto;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+        display: flex;
+    }
+    .btn .btnEnd{
+        padding: 15px 25px;
+        font-weight: bolder;
+        font-size: 1.2rem;
+        border: none;
+        background-color: #49e42ea9;
+        border-radius: 40px 0;
+        display: block;
+        justify-content: end;
+        cursor: pointer;
+        margin-top: 8px;
+        font-size: 15px;
+        width: 110px;
+        transition: all .3s;
+        &:hover{
+            background-color: #49e42e;
+        }
+    }
+    .btn .btnStart{
+        padding: 15px 25px;
+        font-weight: bolder;
+        font-size: 1.2rem;
+        border: none;
+        background-color:#49e42ea9;
+        border-radius: 0 40px;
+        display: block;
+        font-size: 15px;
+        justify-content: end;
+        cursor: pointer;
+        margin-top: 8px;
+        width: 110px;
+        transition: all .3s;
+        &:hover{
+            background-color: #49e42e;
+        }
+    }
+}
+
+.img-head{
+    width: 100%;
+    height: auto;
+}
